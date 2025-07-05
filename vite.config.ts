@@ -235,7 +235,7 @@ export default defineConfig({
   },
 })
 
-const ogSVg = fs.readFileSync('./scripts/og-template-clean.svg', 'utf-8')
+const ogSVg = fs.readFileSync('./scripts/og-template.svg', 'utf-8')
 
 async function generateOg(title: string, output: string) {
   if (fs.existsSync(output))
