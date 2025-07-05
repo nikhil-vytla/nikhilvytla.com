@@ -35,6 +35,16 @@ html:not(.dark) .shiki span {
   transform: translate(0, 1.6em);
 }
 
+/* MathJax */
+mjx-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+mjx-container > svg {
+  margin: auto;
+}
+
 /* Prose */
 .prose pre:not(.shiki) {
   padding: 0;
