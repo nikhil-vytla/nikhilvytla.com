@@ -1,6 +1,8 @@
-**[nikhilvytla.com](https://nikhilvytla.com)**
+# [nikhilvytla.com](https://nikhilvytla.com)
 
-a new version of my personal website, forked from [antfu.me](https://github.com/antfu/antfu.me)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f8f50a13-7063-471a-8a86-bb978f06f5d8/deploy-status)](https://app.netlify.com/projects/nikhilvytla/deploys)
+
+a new version of my personal website, forked from [antfu.me](https://github.com/antfu/antfu.me)!
 
 <br>
 
