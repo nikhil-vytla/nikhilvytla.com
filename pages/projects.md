@@ -36,6 +36,7 @@ projects:
       link: 'https://github.com/akan72/geospatial-store'
       desc: 'Making Earth observation more accessible for everyone'
       icon: 'i-mdi-earth-arrow-up'
+---
 
 <!-- @layout-full-width -->
 <ListProjects :projects="frontmatter.projects" />
