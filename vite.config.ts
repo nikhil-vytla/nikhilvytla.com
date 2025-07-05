@@ -1,7 +1,7 @@
 import { Buffer } from 'node:buffer'
 import { basename, dirname, resolve } from 'node:path'
 import MarkdownItShiki from '@shikijs/markdown-it'
-import { transformerNotationDiff, transformerNotationHighlight, transformerNotationWordHighlight } from '@shikijs/transformers'
+import { transformerNotationDiff, transformerNotationErrorLevel, transformerNotationFocus, transformerNotationHighlight, transformerNotationWordHighlight } from '@shikijs/transformers'
 import { rendererRich, transformerTwoslash } from '@shikijs/twoslash'
 import Vue from '@vitejs/plugin-vue'
 import fs from 'fs-extra'
@@ -10,6 +10,7 @@ import anchor from 'markdown-it-anchor'
 import GitHubAlerts from 'markdown-it-github-alerts'
 import LinkAttributes from 'markdown-it-link-attributes'
 import MarkdownItMagicLink from 'markdown-it-magic-link'
+import mathjax3 from 'markdown-it-mathjax3'
 // @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
 import sharp from 'sharp'
@@ -96,9 +97,13 @@ export default defineConfig({
               explicitTrigger: true,
               renderer: rendererRich(),
             }),
-            transformerNotationDiff(),
-            transformerNotationHighlight(),
-            transformerNotationWordHighlight(),
+            // NOTE: you can find more transformers at https://shiki.style/packages/transformers!
+            // Here, we'll use the notation transformers to highlight code blocks (you could also use the meta transformers, along with custom transformers)
+            transformerNotationDiff(), // [!code ++] and [!code --]
+            transformerNotationHighlight(), // [!code highlight] or [!code hl]
+            transformerNotationWordHighlight(), // [!code word:Hello]
+            transformerNotationFocus(), // [!code focus]
+            transformerNotationErrorLevel(), // [!code error] and [!code warning]
           ],
         }))
 
@@ -126,32 +131,9 @@ export default defineConfig({
 
         md.use(MarkdownItMagicLink, {
           linksMap: {
-            // 'NuxtLabs': 'https://nuxtlabs.com',
-            // 'Vitest': 'https://github.com/vitest-dev/vitest',
-            // 'Slidev': 'https://github.com/slidevjs/slidev',
-            // 'VueUse': 'https://github.com/vueuse/vueuse',
-            // 'UnoCSS': 'https://github.com/unocss/unocss',
-            // 'Elk': 'https://github.com/elk-zone/elk',
-            // 'Type Challenges': 'https://github.com/type-challenges/type-challenges',
-            // 'Vue': 'https://github.com/vuejs/core',
-            // 'Nuxt': 'https://github.com/nuxt/nuxt',
-            // 'Vite': 'https://github.com/vitejs/vite',
-            // 'Shiki': 'https://github.com/shikijs/shiki',
-            // 'Twoslash': 'https://github.com/twoslashes/twoslash',
-            // 'ESLint Stylistic': 'https://github.com/eslint-stylistic/eslint-stylistic',
-            // 'Unplugin': 'https://github.com/unplugin',
-            // 'Nuxt DevTools': 'https://github.com/nuxt/devtools',
-            // 'Vite PWA': 'https://github.com/vite-pwa',
-            // 'i18n Ally': 'https://github.com/lokalise/i18n-ally',
-            // 'ESLint': 'https://github.com/eslint/eslint',
-            // 'Astro': 'https://github.com/withastro/astro',
-            // 'TwoSlash': 'https://github.com/twoslashes/twoslash',
-            // 'Netlify': { link: 'https://netlify.com', imageUrl: 'https://github.com/netlify.png' },
-            // 'Stackblitz': { link: 'https://stackblitz.com', imageUrl: 'https://github.com/stackblitz.png' },
-            
             'TruEra': { link: 'https://www.truera.com', imageUrl: 'https://github.com/truera.png' },
             'Snowflake': { link: 'https://www.snowflake.com' },
-            'Harvard': { link: 'https://hsph.harvard.edu'},
+            'Harvard': { link: 'https://hsph.harvard.edu' },
             'UNC': { link: 'https://www.unc.edu' },
             'CS + Social Good': { link: 'https://cssgunc.org/', imageUrl: 'https://github.com/cssgunc.png' },
           },
@@ -168,6 +150,15 @@ export default defineConfig({
         })
 
         md.use(GitHubAlerts)
+
+        md.use(mathjax3, {
+          tex: {
+            tags: 'ams',
+          },
+          svg: {
+            scale: 1.0,
+          },
+        })
       },
       frontmatterPreprocess(frontmatter, options, id, defaults) {
         (() => {

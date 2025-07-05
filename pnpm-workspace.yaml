@@ -59,6 +59,7 @@ catalogs:
     d3-shape: ^3.2.0
     dayjs: ^1.11.13
     floating-vue: ^5.2.2
+    markdown-it-mathjax3: ^4.3.2
     matter-attractors: ^0.1.6
     matter-js: ^0.20.0
     nprogress: ^0.2.0
