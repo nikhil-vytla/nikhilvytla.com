@@ -9,7 +9,7 @@ duration: 10min
 
 ## Quick Recap
 
-**New to the Central Limit Theorem?** Start with [Part 1](/posts/central-limit-theorem) first!
+**New to the Central Limit Theorem?** Start with [Part 1](/posts/central-limit-theorem-p1) first!
 
 **For everyone else**: The CLT tells us that sample means become normally distributed, regardless of the original data distribution. With samples of `n ≥ 30`, we can make confident statements about populations using statistics. Now let's put this power to work!
 

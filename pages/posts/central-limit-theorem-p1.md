@@ -187,7 +187,7 @@ And remarkably, math keeps this promise every single time.
 
 Now that you understand the intuition behind CLT, you're ready to see it in action!
 
-**Ready to put CLT to work?** Explore some real world applications of CLT in [Part 2](/posts/central-limit-theorem-practice) where we'll dive deep into:
+**Ready to put CLT to work?** Explore some real world applications of CLT in [Part 2](/posts/central-limit-theorem-p2) where we'll dive deep into:
 
 - 🏭 **Complete case study**: Battery factory quality control
 - 📊 **Confidence intervals**: Your statistical superpower
