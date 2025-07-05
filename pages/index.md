@@ -9,9 +9,7 @@ Hi, I'm Nikhil! I'm a software/product engineer excited about making open-source
 
 Currently, I research AI + health equity at {Harvard} and build agentic evals at {Snowflake}.
 
-Previously, I led infra for scalable AI explainability at {TruEra} [(acq. by Snowflake)](https://www.snowflake.com/en/blog/snowflake-acquires-truera-to-bring-llm-ml-observability-to-data-cloud/), and I graduated from {UNC}, where I researched and built ML models to predict early-stage 🔬 Alzheimer's disease and founded {CS + Social Good} to build technical solutions for research, non-profits, and students. I also directed / mentored a few 💻 [hackathons](https://hacknc.com/)  along the way!
-
-
+Previously, I led infra for scalable AI explainability at {TruEra} [(acq. by Snowflake)](https://www.snowflake.com/en/blog/snowflake-acquires-truera-to-bring-llm-ml-observability-to-data-cloud/), and I graduated from {UNC}, where I researched and built ML models to predict early-stage 🔬 Alzheimer's disease and founded {CS + Social Good} to build technical solutions for research, non-profits, and students. I also directed / mentored a few 💻 [hackathons](https://hacknc.com/) along the way!
 
 <!-- Working at {NuxtLabs}<br>
 Creator of {Vitest} {Slidev} {VueUse} {UnoCSS} {Elk} {Type Challenges}<br>
@@ -39,21 +37,13 @@ Outside of programming, I enjoy [photography](/photos), [food](/food), and trave
 Find me on
 
 <p flex="~ gap-2 wrap" class="mt--2!">
-  <a href="https://github.com/nikhil-vytla" target="_blank"><span op75 i-simple-icons-github /> GitHub</a> 
+  <a href="https://github.com/nikhil-vytla" target="_blank"><span op75 i-simple-icons-github /> GitHub</a>
   <a href="https://www.linkedin.com/in/nikhil-vytla/" target="_blank"><span op75 i-simple-icons-linkedin /> LinkedIn</a>
   <a href="https://twitter.com/nikhilxvytla" target="_blank"><span op75 i-simple-icons-twitter /> Twitter</a>
 </p>
 
 Or email me at <span font-mono>nikhil<span i-carbon-at/>nikhilvytla.com</span>
 
-Inactive on <span flex="~ inline gap-2 wrap"><a href="https://instagram.com/nikhilxvytla" target="_blank"><span op75 i-simple-icons-instagram/> Instagram</a></span>
-
 ---
 
 <SponsorButtons />
-
-
-TODO:
-- Move this code to new repo nikhilvytla.com
-- Setup netlify
-- Shutdown nikhilvytla.github.io? (no longer use GitHub pages)
