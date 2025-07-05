@@ -235,7 +235,7 @@ export default defineConfig({
   },
 })
 
-const ogSVg = fs.readFileSync('./scripts/og-template.svg', 'utf-8')
+const ogSVg = fs.readFileSync('./scripts/og-template-clean.svg', 'utf-8')
 
 async function generateOg(title: string, output: string) {
   if (fs.existsSync(output))
@@ -245,10 +245,20 @@ async function generateOg(title: string, output: string) {
   // breakline every 30 chars
   const lines = title.trim().split(/(.{0,30})(?:\s|$)/g).filter(Boolean)
 
+  // Helper function to escape XML entities
+  const escapeXml = (text: string) => {
+    return text
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;')
+  }
+
   const data: Record<string, string> = {
-    line1: lines[0],
-    line2: lines[1],
-    line3: lines[2],
+    line1: lines[0] ? escapeXml(lines[0]) : '',
+    line2: lines[1] ? escapeXml(lines[1]) : '',
+    line3: lines[2] ? escapeXml(lines[2]) : '',
   }
   const svg = ogSVg.replace(/\{\{([^}]+)\}\}/g, (_, name) => data[name] || '')
 
