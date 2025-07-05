@@ -39,6 +39,9 @@ catalogs:
     markdown-it-magic-link:
       specifier: ^0.1.4
       version: 0.1.4
+    markdown-it-mathjax3:
+      specifier: ^4.3.2
+      version: 4.3.2
     markdown-it-table-of-contents:
       specifier: ^0.9.0
       version: 0.9.0
@@ -263,9 +266,6 @@ importers:
       floating-vue:
         specifier: catalog:frontend
         version: 5.2.2(vue@3.5.17(typescript@5.8.3))
-      markdown-it-mathjax3:
-        specifier: ^4.3.2
-        version: 4.3.2
       matter-attractors:
         specifier: catalog:frontend
         version: 0.1.6
@@ -411,6 +411,9 @@ importers:
       markdown-it-magic-link:
         specifier: catalog:build
         version: 0.1.4
+      markdown-it-mathjax3:
+        specifier: catalog:build
+        version: 4.3.2
       markdown-it-table-of-contents:
         specifier: catalog:build
         version: 0.9.0
