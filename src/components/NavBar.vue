@@ -38,16 +38,9 @@ const { y: scroll } = useWindowScroll()
           <span class="lt-md:hidden">Projects</span>
           <div i-ri-lightbulb-line class="md:hidden" />
         </RouterLink>
-        <!-- <RouterLink to="/talks" class="lt-md:hidden" title="Talks">
-          Talks
-        </RouterLink>
-        <RouterLink to="/sponsors-list" title="Sponsors">
-          <span class="lt-md:hidden">Sponsors</span>
-          <div i-ri-heart-line class="md:hidden" />
-        </RouterLink> -->
-        <!-- <RouterLink to="/podcasts" class="lt-md:hidden" title="Podcasts">
-          <div i-ri-mic-line />
-        </RouterLink> -->
+        <a href="https://nikhil-vytla.github.io/interactive-blog/" target="_blank" title="Interactive Blog" class="lt-md:hidden">
+          <div i-tabler-sparkles />
+        </a>
         <RouterLink to="/photos" title="Photos">
           <div i-ri-camera-3-line />
         </RouterLink>
@@ -56,7 +49,7 @@ const { y: scroll } = useWindowScroll()
         </RouterLink>
         <RouterLink to="/chat" title="Let's Chat">
           <div i-ri-chat-1-line />
-        </RouterLink> 
+        </RouterLink>
         <a href="https://github.com/nikhil-vytla" target="_blank" title="GitHub" class="lt-md:hidden">
           <div i-uil-github-alt />
         </a>
