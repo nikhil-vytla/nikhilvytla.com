@@ -296,3 +296,86 @@ h6:focus .header-anchor {
   margin: -1px -3px;
   border-radius: 4px;
 }
+
+/* Copy Button */
+.prose pre:has(code) {
+  position: relative;
+  /* Ensure the button container doesn't participate in horizontal scrolling */
+  overflow: visible;
+}
+
+.prose pre:has(code) code {
+  display: block;
+  overflow-x: auto;
+}
+
+/* Base copy button styles */
+.prose pre button.copy {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 10;
+
+  /* Layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+
+  /* Appearance */
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(125, 125, 125, 0.3);
+  border-radius: 6px;
+  color: #ffffff;
+
+  /* Interaction */
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Copy button visibility on hover */
+.prose pre:hover button.copy {
+  opacity: 0.7;
+}
+
+.prose pre button.copy:hover {
+  opacity: 1 !important;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Copy button icons */
+.prose pre button.copy .ready {
+  @apply i-carbon-copy;
+}
+
+.prose pre button.copy .success {
+  @apply i-carbon-checkmark text-green;
+  display: none;
+}
+
+/* Copied state */
+.prose pre button.copy.copied .success {
+  display: block;
+}
+
+.prose pre button.copy.copied .ready {
+  display: none;
+}
+
+/* Light theme overrides */
+html:not(.dark) .prose pre button.copy {
+  background: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+
+html:not(.dark) .prose pre button.copy:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+html:not(.dark) .prose pre button.copy .success {
+  color: #198038;
+}

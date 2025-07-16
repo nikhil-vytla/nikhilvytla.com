@@ -14,6 +14,7 @@ import mathjax3 from 'markdown-it-mathjax3'
 // @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
 import sharp from 'sharp'
+import { addCopyButton } from 'shiki-transformer-copy-button'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import IconsResolver from 'unplugin-icons/resolver'
@@ -104,6 +105,9 @@ export default defineConfig({
             transformerNotationWordHighlight(), // [!code word:Hello]
             transformerNotationFocus(), // [!code focus]
             transformerNotationErrorLevel(), // [!code error] and [!code warning]
+            addCopyButton({
+              toggle: 2000, // Time in ms to show "copied" state
+            }),
           ],
         }))
 
