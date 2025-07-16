@@ -194,6 +194,9 @@ catalogs:
     shiki-magic-move:
       specifier: ^1.1.0
       version: 1.1.0
+    shiki-transformer-copy-button:
+      specifier: ^0.0.5
+      version: 0.0.5
     simplex-noise:
       specifier: ^4.0.3
       version: 4.0.3
@@ -287,6 +290,9 @@ importers:
       shiki-magic-move:
         specifier: catalog:frontend
         version: 1.1.0(shiki@3.6.0)(vue@3.5.17(typescript@5.8.3))
+      shiki-transformer-copy-button:
+        specifier: catalog:frontend
+        version: 0.0.5
       simplex-noise:
         specifier: catalog:frontend
         version: 4.0.3
@@ -432,9 +438,6 @@ importers:
       sharp:
         specifier: catalog:dev
         version: 0.32.6
-      shiki-transformer-copy-button:
-        specifier: ^0.0.5
-        version: 0.0.5
       simple-git:
         specifier: catalog:dev
         version: 3.28.0
