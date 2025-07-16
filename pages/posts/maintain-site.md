@@ -15,11 +15,17 @@ type: note
 
 - Upload updated resume
 - Add more photos
-- Update projects (and project categories to reflect topics) and demos page with additional repos/videos
+- Update projects (and project categories to reflect topics e.g. CS+SG, etc.) and demos page with additional repos/videos
 - Update bookmarks
+- Add blogs for inspiration note
 - Update media
-- Confirm that math works (may need to fiddle with mathjax3 CSS more!)
+- Confirm that math works (may need to fiddle with mathjax3 CSS more to fix aligns!)
 - Confirm that code renders work
+- Add custom art simulations (a la plum/dots)
+- write up little blog on OG image generation - perhaps make a tool for it as well!
+- write up a little blog on how I built a link minifier (and other projects - maybe case studies for more serious projects? or i could do multi-part blogs...)
+- write up smaller blog posts on fundamentals from stats, CS, HDS, potential projects
+- add bookmarks for visualization
 
 ### Testing code renders
 
