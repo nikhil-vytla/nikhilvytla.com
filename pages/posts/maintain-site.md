@@ -23,8 +23,10 @@ type: note
 - Confirm that code renders work
 - Add custom art simulations (a la plum/dots)
 - write up little blog on OG image generation - perhaps make a tool for it as well!
-- write up a little blog on how I built a link minifier (and other projects - maybe case studies for more serious projects? or i could do multi-part blogs...)
+- write up a little blog on link minifier (and other projects - maybe case studies for more serious projects? or i could do multi-part blogs...)
 - write up smaller blog posts on fundamentals from stats, CS, HDS, potential projects
+- write paper breakdowns, dl, mi fundamentals, learnings from ai/ml in hc
+- aim to write 1/week, if not faster (shorter possibly too)
 - add bookmarks for visualization
 
 ### Testing code renders
@@ -111,6 +113,15 @@ T(n) = \begin{cases}
 $$
 
 Big-O notation: $f(n) = O(g(n))$ means $\exists c, n_0$ such that $f(n) \leq c \cdot g(n)$ for all $n \geq n_0$.
+
+### Testing out Marimo
+
+<iframe
+  src="https://marimo.app/l/9bnuyz?embed=true&show-chrome=false"
+  width="100%"
+  height="300"
+  frameborder="0"
+></iframe>
 
 ## Completed
 

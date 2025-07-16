@@ -206,12 +206,3 @@ The CLT isn't just a mathematical curiosity - it's the foundation that makes dat
 ---
 
 _Remember: The Central Limit Theorem is your friend who brings order to chaos. Trust in the power of averaging!_ 🚀
-
-## Testing out Marimo
-
-<iframe
-  src="https://marimo.app/l/9bnuyz?embed=true&show-chrome=false"
-  width="100%"
-  height="300"
-  frameborder="0"
-></iframe>
