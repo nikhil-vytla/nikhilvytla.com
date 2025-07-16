@@ -28,6 +28,7 @@
     "pixi.js": "catalog:frontend",
     "shiki": "catalog:frontend",
     "shiki-magic-move": "catalog:frontend",
+    "shiki-transformer-copy-button": "catalog:frontend",
     "simplex-noise": "catalog:frontend",
     "vue": "catalog:frontend",
     "vue-router": "catalog:frontend",

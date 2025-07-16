@@ -432,6 +432,9 @@ importers:
       sharp:
         specifier: catalog:dev
         version: 0.32.6
+      shiki-transformer-copy-button:
+        specifier: ^0.0.5
+        version: 0.0.5
       simple-git:
         specifier: catalog:dev
         version: 3.28.0
@@ -2437,11 +2440,17 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
+  hast-util-parse-selector@4.0.0:
+    resolution: {integrity: sha512-wkQCkSYoOGCRKERFWcxMVMOcYE2K1AaNLU8DXS9arxnLOUEWbOXKXiJUNzEpqZ3JOKpnha3jkFrumEjVliDe7A==}
+
   hast-util-to-html@9.0.5:
     resolution: {integrity: sha512-OguPdidb+fbHQSU4Q4ZiLKnzWo8Wwsf5bZfbvu7//a9oTYoqD/fWpe96NuHkoS9h0ccGOTe0C4NGXdtS0iObOw==}
 
   hast-util-whitespace@3.0.0:
     resolution: {integrity: sha512-88JUN06ipLwsnv+dVn+OIYOvAuvBMy/Qoi6O7mQHxdPXpjy+Cd6xRkWwux7DKO+4sYILtLBRIKgsdpS2gQc7qw==}
+
+  hastscript@9.0.1:
+    resolution: {integrity: sha512-g7df9rMFX/SPi34tyGCyUBREQoKkapwdY/T04Qn9TDWfHhAYt4/I0gMVirzK5wEzeUqIjEB+LXC/ypb7Aqno5w==}
 
   hookable@5.5.3:
     resolution: {integrity: sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==}
@@ -3373,6 +3382,9 @@ packages:
         optional: true
       vue:
         optional: true
+
+  shiki-transformer-copy-button@0.0.5:
+    resolution: {integrity: sha512-PQYu6muxUC42ULWIDp2Fq80Mktt7Qy5JAdDHJV5VEEzMIcMcHu1VW8hYo4XLXVFcOwCQBJB7wjH9ImJjoDiD+g==}
 
   shiki@3.6.0:
     resolution: {integrity: sha512-tKn/Y0MGBTffQoklaATXmTqDU02zx8NYBGQ+F6gy87/YjKbizcLd+Cybh/0ZtOBX9r1NEnAy/GTRDKtOsc1L9w==}
@@ -6091,6 +6103,10 @@ snapshots:
 
   has-flag@4.0.0: {}
 
+  hast-util-parse-selector@4.0.0:
+    dependencies:
+      '@types/hast': 3.0.4
+
   hast-util-to-html@9.0.5:
     dependencies:
       '@types/hast': 3.0.4
@@ -6108,6 +6124,14 @@ snapshots:
   hast-util-whitespace@3.0.0:
     dependencies:
       '@types/hast': 3.0.4
+
+  hastscript@9.0.1:
+    dependencies:
+      '@types/hast': 3.0.4
+      comma-separated-tokens: 2.0.3
+      hast-util-parse-selector: 4.0.0
+      property-information: 7.0.0
+      space-separated-tokens: 2.0.2
 
   hookable@5.5.3: {}
 
@@ -7232,6 +7256,10 @@ snapshots:
     optionalDependencies:
       shiki: 3.6.0
       vue: 3.5.17(typescript@5.8.3)
+
+  shiki-transformer-copy-button@0.0.5:
+    dependencies:
+      hastscript: 9.0.1
 
   shiki@3.6.0:
     dependencies:
