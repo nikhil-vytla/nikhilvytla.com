@@ -13,7 +13,7 @@ art: dots
 
 I am incredibly fortunate to be involved in communities, both online and offline, that have generously provided me with support, tooling, and resources that others may find beneficial! I deeply respect and appreciate the ` { open-source AI/ML, startup, open education, digital accessibility }` communities, to name a few.
 
-If you're curious about diving into open-source, education, healthcare, or any other fields, but feel uncertain about where begin, or if you're already well on your journey, I would be happy to chat with you and share my experiences and insights! 
+If you're curious about diving into open-source, education, healthcare, or any other fields, but feel uncertain about where begin, or if you're already well on your journey, I would be happy to chat with you and share my experiences and insights!
 
 ### Quick Chat
 
@@ -26,7 +26,6 @@ I want to keep the conversation easy, open, and accessible. You can use the link
 ### Consultancy
 
 For engaging on a more professional basis. This is still in development, stay tuned! ✨
-
 
 ## Credits
 
