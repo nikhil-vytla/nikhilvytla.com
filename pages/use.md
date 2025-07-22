@@ -11,13 +11,14 @@ art: dots
 ## Hardware
 
 <!-- - Camera: RICOH GR IIIx / Nikon Z50 + Nikkor 85mm f1.8 / ~~Nikon Z6 II~~ / ~~Nikon D750~~ / ~~Canon 600D~~ -->
-- Laptop: MacBook Pro 14' M2 Pro 16GB 
-<!-- - Mouse: Logitech MX Ergo S -->
-<!-- - Keyboard: HHKB Studio + XPPen Wireless Shortcut Remote -->
-<!-- - Monitor: Studio Display / ~~LG 27UL850-W~~ -->
-<!-- - Chair: Herman Miller Aeron / ~~Herman Miller Sayl~~ -->
-<!-- - Table: FlexiSpot E7H -->
-<!-- - Speakers: Sonos Beam / HomePod Mini x2 / Sonos Roam 2 -->
+
+- Laptop: MacBook Pro 14' M2 Pro 16GB
+  <!-- - Mouse: Logitech MX Ergo S -->
+  <!-- - Keyboard: HHKB Studio + XPPen Wireless Shortcut Remote -->
+  <!-- - Monitor: Studio Display / ~~LG 27UL850-W~~ -->
+  <!-- - Chair: Herman Miller Aeron / ~~Herman Miller Sayl~~ -->
+  <!-- - Table: FlexiSpot E7H -->
+  <!-- - Speakers: Sonos Beam / HomePod Mini x2 / Sonos Roam 2 -->
 
 - Desktop:
   - CPU: Ryzen 5600X
