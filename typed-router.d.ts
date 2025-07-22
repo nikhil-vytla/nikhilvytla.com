@@ -29,12 +29,18 @@ declare module 'vue-router/auto-routes' {
     '/notes': RouteRecordInfo<'/notes', '/notes', Record<never, never>, Record<never, never>>,
     '/photos': RouteRecordInfo<'/photos', '/photos', Record<never, never>, Record<never, never>>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
+    '/posts/attention-transformers': RouteRecordInfo<'/posts/attention-transformers', '/posts/attention-transformers', Record<never, never>, Record<never, never>>,
+    '/posts/bias-variance-tradeoff': RouteRecordInfo<'/posts/bias-variance-tradeoff', '/posts/bias-variance-tradeoff', Record<never, never>, Record<never, never>>,
     '/posts/caramel-churro-chex-mix': RouteRecordInfo<'/posts/caramel-churro-chex-mix', '/posts/caramel-churro-chex-mix', Record<never, never>, Record<never, never>>,
+    '/posts/central-limit-theorem': RouteRecordInfo<'/posts/central-limit-theorem', '/posts/central-limit-theorem', Record<never, never>, Record<never, never>>,
     '/posts/central-limit-theorem-p1': RouteRecordInfo<'/posts/central-limit-theorem-p1', '/posts/central-limit-theorem-p1', Record<never, never>, Record<never, never>>,
     '/posts/central-limit-theorem-p2': RouteRecordInfo<'/posts/central-limit-theorem-p2', '/posts/central-limit-theorem-p2', Record<never, never>, Record<never, never>>,
     '/posts/maintain-site': RouteRecordInfo<'/posts/maintain-site', '/posts/maintain-site', Record<never, never>, Record<never, never>>,
+    '/posts/ml-ai-fundamentals': RouteRecordInfo<'/posts/ml-ai-fundamentals', '/posts/ml-ai-fundamentals', Record<never, never>, Record<never, never>>,
+    '/posts/statistical-learning-fundamentals': RouteRecordInfo<'/posts/statistical-learning-fundamentals', '/posts/statistical-learning-fundamentals', Record<never, never>, Record<never, never>>,
     '/projects': RouteRecordInfo<'/projects', '/projects', Record<never, never>, Record<never, never>>,
     '/research': RouteRecordInfo<'/research', '/research', Record<never, never>, Record<never, never>>,
+    '/technical-blog-template': RouteRecordInfo<'/technical-blog-template', '/technical-blog-template', Record<never, never>, Record<never, never>>,
     '/use': RouteRecordInfo<'/use', '/use', Record<never, never>, Record<never, never>>,
   }
 }
