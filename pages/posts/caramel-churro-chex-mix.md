@@ -6,7 +6,6 @@ duration: 2min
 type: food
 ---
 
-
 <figure>
   <img src="/images/caramel-churro-chex-mix.jpg" alt="Caramel Churro Chex Mix" />
   <figcaption>A bowl filled with yummy, crunchy, delicious Caramel Churro Chex Mix!</figcaption>

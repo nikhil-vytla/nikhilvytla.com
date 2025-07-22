@@ -8,7 +8,7 @@ art: dots
 # TODO: emojis should be sourced from https://icones.js.org/
 # NOTE: the syntax is `i-<provider>-<emojiname>` (e.g. for provider: "emojione" and emojiname: "squid" --> `i-emojione-squid`)
 # NOTE: `saturate-0` grayscales the emoji
-# 
+#
 projects:
   Current Focus:
     - name: 'TruLens'
