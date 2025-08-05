@@ -7,6 +7,7 @@ import Vue from '@vitejs/plugin-vue'
 import fs from 'fs-extra'
 import matter from 'gray-matter'
 import anchor from 'markdown-it-anchor'
+import footnote from 'markdown-it-footnote'
 import GitHubAlerts from 'markdown-it-github-alerts'
 import LinkAttributes from 'markdown-it-link-attributes'
 import MarkdownItMagicLink from 'markdown-it-magic-link'
@@ -98,7 +99,7 @@ export default defineConfig({
               explicitTrigger: true,
               renderer: rendererRich(),
             }),
-            // NOTE: you can find more transformers at https://shiki.style/packages/transformers!
+            // NOTE: you can find more transformers at https://shiki.style/packages/transformers
             // Here, we'll use the notation transformers to highlight code blocks (you could also use the meta transformers, along with custom transformers)
             transformerNotationDiff(), // [!code ++] and [!code --]
             transformerNotationHighlight(), // [!code highlight] or [!code hl]
@@ -158,11 +159,12 @@ export default defineConfig({
         md.use(mathjax3, {
           tex: {
             tags: 'ams',
+            // packages: {'[+]': ['color', 'cases', 'empheq']},
           },
-          svg: {
-            scale: 1.0,
-          },
+          svg: { scale: 1.0 },
         })
+
+        md.use(footnote)
       },
       frontmatterPreprocess(frontmatter, options, id, defaults) {
         (() => {

@@ -276,6 +276,8 @@ h6:focus .header-anchor {
 }
 
 /* Shiki Transformers */
+
+/* transformerNotationHighlight */
 .prose code .highlighted {
   background-color: #8881;
   width: calc(100% + 48px);
@@ -289,12 +291,73 @@ h6:focus .header-anchor {
   opacity: 0.75;
 }
 
+/* transformerNotationWordHighlight */
 .prose .highlighted-word {
-  background-color: #8881;
-  border: 1px solid #8885;
+  background-color: #202127;
+  border: 1px solid #3c3f44;
   padding: 1px 3px;
   margin: -1px -3px;
   border-radius: 4px;
+}
+
+/* transformerNotationErrorLevel */
+.prose .shiki.has-highlighted .line.highlighted.error {
+  background-color: rgba(244, 63, 94, 0.16);
+}
+
+.prose .shiki.has-highlighted .line.highlighted.warning {
+  background-color: rgba(234, 179, 8, 0.16);
+}
+
+/* transformerNotationFocus */
+.prose .shiki.has-focused .line:not(.focused) {
+  filter: blur(0.095rem);
+  opacity: 0.4;
+  transition:
+    filter 0.35s,
+    opacity 0.35s;
+}
+
+.prose .shiki.has-focused:hover .line:not(.focused) {
+  filter: blur(0);
+  opacity: 1;
+}
+
+/* transformerNotationDiff */
+.prose .shiki.has-diff {
+  position: relative;
+}
+.prose .shiki.has-diff .line {
+  display: inline-block;
+  width: 100%;
+}
+.prose .shiki.has-diff .diff {
+  margin: 0 -24px;
+  padding: 0 24px;
+  width: calc(100% + 48px);
+  display: inline-block;
+}
+
+.prose .shiki.has-diff .diff.add {
+  background-color: #0505;
+}
+.prose .shiki.has-diff .diff.remove {
+  background-color: #8005;
+}
+.prose .shiki.has-diff .diff:before {
+  position: absolute;
+  left: 0;
+  padding-left: 6px;
+}
+.prose .shiki.has-diff .diff.add:before {
+  content: '+';
+  color: #3dd68c;
+  border-left: 1px solid #10b981;
+}
+.prose .shiki.has-diff .diff.remove:before {
+  content: '-';
+  color: #cb7676;
+  border-left: 1px solid #f43f5e;
 }
 
 /* Copy Button */
@@ -312,16 +375,16 @@ h6:focus .header-anchor {
 /* Base copy button styles */
 .prose pre button.copy {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 7px;
+  right: 8px;
   z-index: 10;
 
   /* Layout */
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   padding: 0;
 
   /* Appearance */
