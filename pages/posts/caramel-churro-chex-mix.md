@@ -1,11 +1,10 @@
 ---
 title: Caramel Churro Chex Mix
-date: 2022-01-15T16:00:00Z
+date: '2022-01-15'
 lang: en
 duration: 2min
 type: food
 ---
-
 
 <figure>
   <img src="/images/caramel-churro-chex-mix.jpg" alt="Caramel Churro Chex Mix" />
