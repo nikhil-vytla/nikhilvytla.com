@@ -78,7 +78,7 @@ The blockquote element represents content that is quoted from another source, op
 > Don't communicate by sharing memory, share memory by communicating.<br>
 > — Rob Pike[^1]
 
-### Citations
+### Citations/Footnotes
 
 #### Syntax
 
@@ -126,7 +126,7 @@ See bottom of page.
 
 ## Math/Equation Rendering
 
-We use MathJax for rendering LaTeX.
+We use MathJax for rendering LaTeX. Here are a few examples of algorithms and equations:
 
 ### [Merge sort](https://en.wikipedia.org/wiki/Merge_sort)
 
@@ -258,7 +258,7 @@ for all elements $a_1,\ldots,a_k$ in $A$.
 
 ### Syntax
 
-We can use 3 backticks <code>```</code> on a new line, write our code snippet, and then close with 3 backticks on another new line. To highlight language specific syntax, we can type the language name after the first 3 backticks (e.g. `html`, `javascript`, `css`, `markdown`, `typescript`, `txt`, `bash`, `python`, etc)
+We can use 3 backticks <code>```</code> on a new line, write our code snippet, and then close with 3 backticks on another new line. To highlight language specific syntax, we can type the language name after the first 3 backticks (e.g. `html`, `javascript`, `css`, `markdown`, `typescript`, `txt`, `bash`, `python`, etc).
 
 ````markdown
 ```html
@@ -295,7 +295,7 @@ We can use 3 backticks <code>```</code> on a new line, write our code snippet, a
 ### Syntax
 
 > [!NOTE]
-> Only some transformers have been configured, see https://shiki.style/packages/transformers for more
+> Only some transformers have been configured, see https://shiki.style/packages/transformers for more!
 
 ### Output
 
@@ -340,11 +340,19 @@ console.error('Error') // [!code error]
 console.warn('Warning') // [!code warning]
 ```
 
-```js {1,3-4}
-console.log('1')
+```js {2,4-5}
+// transformerMetaHighlight
 console.log('2')
 console.log('3')
 console.log('4')
+console.log('5')
+```
+
+```js /Hello/
+// transformerMetaWordHighlight
+const msg = 'Hello World'
+console.log(msg)
+console.log(msg) // prints Hello World
 ```
 
 ## List Types

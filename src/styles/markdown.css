@@ -411,11 +411,11 @@ h6:focus .header-anchor {
 
 /* Copy button icons */
 .prose pre button.copy .ready {
-  @apply i-carbon-copy;
+  @apply i-lucide-copy;
 }
 
 .prose pre button.copy .success {
-  @apply i-carbon-checkmark text-green;
+  @apply i-lucide-check text-green;
   display: none;
 }
 

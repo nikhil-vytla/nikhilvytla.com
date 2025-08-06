@@ -19,7 +19,7 @@ function copy() {
     <slot />
     <button
       title="Copy" inline ml2 op30 hover:op100 text-sm transition
-      :class="copied ? 'i-carbon-checkmark text-green' : 'i-carbon-copy'" @click="copy()"
+      :class="copied ? 'i-lucide-check text-green' : 'i-lucide-copy'" @click="copy()"
     />
   </div>
 </template>

@@ -50,7 +50,7 @@ export default defineConfig({
   ],
   safelist: [
     'i-ri-menu-2-fill',
-    'i-carbon-copy',
-    'i-carbon-checkmark',
+    'i-lucide-copy',
+    'i-lucide-check',
   ],
 })

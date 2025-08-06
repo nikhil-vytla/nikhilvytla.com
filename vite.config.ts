@@ -1,7 +1,7 @@
 import { Buffer } from 'node:buffer'
 import { basename, dirname, resolve } from 'node:path'
 import MarkdownItShiki from '@shikijs/markdown-it'
-import { transformerNotationDiff, transformerNotationErrorLevel, transformerNotationFocus, transformerNotationHighlight, transformerNotationWordHighlight } from '@shikijs/transformers'
+import { transformerMetaHighlight, transformerMetaWordHighlight, transformerNotationDiff, transformerNotationErrorLevel, transformerNotationFocus, transformerNotationHighlight, transformerNotationWordHighlight } from '@shikijs/transformers'
 import { rendererRich, transformerTwoslash } from '@shikijs/twoslash'
 import Vue from '@vitejs/plugin-vue'
 import fs from 'fs-extra'
@@ -100,12 +100,15 @@ export default defineConfig({
               renderer: rendererRich(),
             }),
             // NOTE: you can find more transformers at https://shiki.style/packages/transformers
-            // Here, we'll use the notation transformers to highlight code blocks (you could also use the meta transformers, along with custom transformers)
+            // For notation transformers, add comments inline at the end of the respective lines
             transformerNotationDiff(), // [!code ++] and [!code --]
             transformerNotationHighlight(), // [!code highlight] or [!code hl]
             transformerNotationWordHighlight(), // [!code word:Hello]
             transformerNotationFocus(), // [!code focus]
             transformerNotationErrorLevel(), // [!code error] and [!code warning]
+            // For meta transformers, define at the top of the code block
+            transformerMetaHighlight(), // ```js {1, 3-4}
+            transformerMetaWordHighlight(), // ```js \Hello\
             addCopyButton({
               toggle: 2000, // Time in ms to show "copied" state
             }),
