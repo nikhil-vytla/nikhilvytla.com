@@ -47,7 +47,7 @@ Regardless of their levels of visibility, at the end of the day, both types of p
 
 ## Jenga Blocks All the Way Down
 
-Companies (many of them household names) generate trillions in revenue using free open-source software, yet contribute a fraction back to the projects they depend on. In today's chronically online world, this funding imbalance impacts both our technical capabilities and our economic strength.
+Companies (many of them [household names](https://netflixtechblog.com/why-we-use-and-contribute-to-open-source-software-1faa77c2e5c4)) generate trillions in revenue using free open-source software, yet most contribute a fraction back to the projects they depend on. In today's chronically online world, this funding imbalance impacts both our technical capabilities and our economic strength.
 
 In short:
 
@@ -57,17 +57,17 @@ In short:
 
 3. Without funding for new features and optimizations, critical infrastructure stagnates, limiting technological innovation across the entire ecosystem.
 
-This creates:
+This results in:
 
-- **Huge positive externalities**: One project can create billions in economic value
-- **A tragedy of the commons**: Everyone benefits but few contribute to maintenance
+- **Large positive externalities**: One open-source project can create billions in economic value
+- **Tragedy of the commons**: Everyone benefits from open-source but few contribute to maintenance
 - **Single points of failure**: Key maintainers become irreplaceable bottlenecks
 
 Some innovative organizations have begun addressing this. [ESLint forwards sponsorships to dependencies](https://eslint.org/blog/2022/02/paying-contributors-sponsoring-projects/), and the [Open Source Security Foundation](https://openssf.org/) coordinates security improvements. These efforts are promising, but they're only the start!
 
 ## A List of Projects to Consider Supporting
 
-The following projects form different parts of the invisible backbone of our digital infrastructure. This is a non-exhaustive list.
+The following list contains examples of projects that form different parts of the backbone of our digital infrastructure and the open internet. Note that this is a non-exhaustive list.
 
 ### Core Infrastructure & Cryptography
 
@@ -121,11 +121,13 @@ The following projects form different parts of the invisible backbone of our dig
 
 ## The Path Forward
 
-For the record, I'm not proposing a silver bullet, and I also don't believe that it's only on the general population to "foot the bill". Large companies, especially those who benefit the most from OSS, need to step up to the plate as well.
+Broadly, I believe it's important to recognize that open-source infrastructure is a public good that deserves to be invested in, just like roads, bridges, and utilities.
 
-In general, I believe it's important to recognize that open-source infrastructure is a public good that deserves to be invested in, just like roads, bridges, and utilities. It's equally important to show appreciation for OSS, to contribute and maintain code, and, if you are able to donate, please do!
+It's also equally important to show appreciation for OSS, to contribute and maintain code, and, if you are able to donate, please do!
 
-Just like how [sidewalk curbs have benefitted all of society](https://ssir.org/articles/entry/the_curb_cut_effect), open-source projects benefit diverse, interdisciplinary communities around the world! ◡̈
+For the record, I'm not proposing a silver bullet, and I also don't believe that it's only on the general population to "foot the bill". Large companies, especially those who benefit the most from OSS, need to step up to the plate.
+
+Just like how [sidewalk curbs, initially designed to benefit vulnerable groups, have ended up benefitting all of society](https://ssir.org/articles/entry/the_curb_cut_effect), the impacts of open-source projects benefit diverse, interdisciplinary communities around the world! ◡̈
 
 ---
 
