@@ -12,7 +12,7 @@
     "source.organizeImports": "never"
   },
 
-  // Silent the stylistic rules in you IDE, but still auto fix them
+  // Silence the stylistic rules in your IDE, but still auto fix them
   "eslint.rules.customizations": [
     { "rule": "@stylistic/*", "severity": "off" },
     { "rule": "*-indent", "severity": "off" },
@@ -51,7 +51,7 @@
     {
       "language": "markdown",
       "scheme": "file",
-      "pattern": "pages/posts/sponsorship-forwarding.md"
+      "pattern": "pages/posts/supporting-oss.md"
     }
   ]
 }

@@ -17,7 +17,7 @@
       Sponsor Nikhil on GitHub
     </a>
     <a
-      href="https://donate.wikimedia.org/w/index.php"
+      href="https://archive.org/donate"
       target="_blank"
       class="group btn-yellow inline-block"
     >
@@ -26,11 +26,10 @@
         group-hover="i-ph-lightning-fill text-yellow"
         transition-all duration-200 ease-out
       />
-      Donate to Wikimedia
+      Donate to Internet Archive
     </a>
-    <!-- TODO: add a link to a post on organizations I like donating to -->
     <span op50 text-sm>
-      <a href="/posts/sponsorship-forwarding" target="_blank">How does this work?</a>
+      <a href="/posts/supporting-oss" target="_blank">How does this work?</a>
     </span>
   </p>
 </template>
