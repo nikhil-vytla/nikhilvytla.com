@@ -1,6 +1,6 @@
 ---
 title: Supporting OSS
-date: 2023-05-30
+date: 2023-05-31
 lang: en
 duration: 12min
 description: Open-source projects form the backbone of the internet, and it feels more important than ever before to support them.
@@ -63,7 +63,7 @@ This creates:
 - **A tragedy of the commons**: Everyone benefits but few contribute to maintenance
 - **Single points of failure**: Key maintainers become irreplaceable bottlenecks
 
-Some great organizations have begun addressing this. [ESLint forwards sponsorships to dependencies](https://eslint.org/blog/2022/02/paying-contributors-sponsoring-projects/), and the [Open Source Security Foundation](https://openssf.org/) coordinates security improvements. These efforts are promising, but they're only the start!
+Some innovative organizations have begun addressing this. [ESLint forwards sponsorships to dependencies](https://eslint.org/blog/2022/02/paying-contributors-sponsoring-projects/), and the [Open Source Security Foundation](https://openssf.org/) coordinates security improvements. These efforts are promising, but they're only the start!
 
 ## A List of Projects to Consider Supporting
 
@@ -121,12 +121,12 @@ The following projects form different parts of the invisible backbone of our dig
 
 ## The Path Forward
 
-For the record, I'm not proposing a silver bullet, and I also don't necessarily think that it's only on the general population to "foot the bill". Large companies, especially those who benefit the most, should step up to the plate too.
+For the record, I'm not proposing a silver bullet, and I also don't believe that it's only on the general population to "foot the bill". Large companies, especially those who benefit the most from OSS, need to step up to the plate as well.
 
-In general, I believe it's important to recognize that open-source infrastructure is a public good that deserves to be invested in, just like roads, bridges, and utilities.
+In general, I believe it's important to recognize that open-source infrastructure is a public good that deserves to be invested in, just like roads, bridges, and utilities. It's equally important to show appreciation for OSS, to contribute and maintain code, and, if you are able to donate, please do!
 
-Just like how [sidewalk curbs have benefitted all of society](https://ssir.org/articles/entry/the_curb_cut_effect), not just the disabled communities they were originally built for, the impacts of OSS benefit the world.
+Just like how [sidewalk curbs have benefitted all of society](https://ssir.org/articles/entry/the_curb_cut_effect), open-source projects benefit diverse, interdisciplinary communities around the world! ◡̈
 
 ---
 
-_The projects listed above represent just the tip of the iceberg. If you have another project you'd like to add to this list, please let me know!_
+_The projects listed above represent just the tip of the iceberg. If you have another project you'd like for me to feature on this list, please let me know!_
