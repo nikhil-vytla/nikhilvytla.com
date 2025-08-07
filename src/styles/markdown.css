@@ -300,6 +300,12 @@ h6:focus .header-anchor {
   border-radius: 4px;
 }
 
+/* Light theme override */
+html:not(.dark) .prose .highlighted-word {
+  background-color: #8881;
+  border: 1px solid #8885;
+}
+
 /* transformerNotationErrorLevel */
 .prose .shiki.has-highlighted .line.highlighted.error {
   background-color: rgba(244, 63, 94, 0.16);

@@ -35,6 +35,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/central-limit-theorem-p2': RouteRecordInfo<'/posts/central-limit-theorem-p2', '/posts/central-limit-theorem-p2', Record<never, never>, Record<never, never>>,
     '/posts/maintain-site': RouteRecordInfo<'/posts/maintain-site', '/posts/maintain-site', Record<never, never>, Record<never, never>>,
     '/posts/markdown-syntax-guide': RouteRecordInfo<'/posts/markdown-syntax-guide', '/posts/markdown-syntax-guide', Record<never, never>, Record<never, never>>,
+    '/posts/supporting-oss': RouteRecordInfo<'/posts/supporting-oss', '/posts/supporting-oss', Record<never, never>, Record<never, never>>,
     '/projects': RouteRecordInfo<'/projects', '/projects', Record<never, never>, Record<never, never>>,
     '/research': RouteRecordInfo<'/research', '/research', Record<never, never>, Record<never, never>>,
     '/use': RouteRecordInfo<'/use', '/use', Record<never, never>, Record<never, never>>,
