@@ -1,41 +1,122 @@
 ---
 title: Projects - Nikhil Vytla
 display: Projects
-description: A list of projects that I am proud of
+description: A list of selected projects
 wrapperClass: 'text-center'
 art: dots
 # TODO: add projects
 # TODO: emojis should be sourced from https://icones.js.org/
 # NOTE: the syntax is `i-<provider>-<emojiname>` (e.g. for provider: "emojione" and emojiname: "squid" --> `i-emojione-squid`)
 # NOTE: `saturate-0` grayscales the emoji
-# 
+#
 projects:
-  Current Focus:
+  '/Open Source':
     - name: 'TruLens'
       link: 'https://github.com/truera/trulens'
-      desc: 'Evaluate and track LLMs/Agents (powered by TruEra and Snowflake)'
+      desc: 'Evaluation and Tracking for LLM Experiments and AI Agents (shepherded by TruEra and Snowflake)'
       icon: 'i-emojione-squid'
       # icon: 'i-simple-icons-snowflake'
-    - name: 'Environmental Sustainability'
+    - name: 'CNCF Environmental Sustainability'
       link: 'https://github.com/cncf/tag-env-sustainability'
       desc: 'Cloud Native Compute Foundation (CNCF) Technical Advisory Group (TAG)'
       icon: 'i-simple-icons-cncf'
-
-  Harvard:
+  '/Harvard':
+    - name: 'Reproducible Data Science'
+      link: 'http://github.com/violafanfani/bst270_winter2025'
+      desc: 'BST 270: Graduate Teaching Fellow (Winter 2025)'
+      icon: 'i-tabler-table-share'
     - name: 'Intro to Data Science'
       link: 'https://github.com/datasciencelabs/2024'
-      desc: 'BST 260, Fall 2024'
-      icon: 'i-fluent-hat-graduation-12-regular'
+      desc: 'BST 260: Graduate Teaching Fellow (Fall 2024)'
+      icon: 'i-tabler-clipboard-data'
+    - name: 'Interactive Lineage Tracing'
+      link: 'https://github.com/nikhil-vytla/exp-lineage-tracing'
+      desc: 'Exploratory notebooks for lineage tracing (pseudotime, RNA velocity) using scRNA-seq data (DFCI, Summer 2024)'
+      icon: 'i-twemoji-microscope'
+    - name: 'COVID Event Safety Modeling'
+      link: 'https://github.com/nikhil-vytla/COVID-Event-Safety-Modeling'
+      desc: 'A model for simulating various mitigation measures for the reopening of events during the COVID-19 pandemic (Fall 2023)'
+      icon: 'i-healthicons-global-pandemic'
+    - name: 'Brave Behind Bars'
+      link: 'https://github.com/nikhil-vytla/2023-Brave'
+      desc: 'Mini web projects taught in HTML, CSS, and JS for Brave Behind Bars (Summer 2023)'
+      icon: 'i-fxemoji-personalcomputer'
 
-  UNC:
-    - name: 'Resume Database'
+  '/UNC':
+    - name: 'HackNC'
+      link: 'https://hacknc.com/'
+      desc: 'Building the largest hackathon in North Carolina (Fall 2018 - Fall 2021)'
+      icon: 'i-fluent-color-code-20'
+    - name: 'MLH A11y'
+      link: 'https://devpost.com/software/mlh-a11y'
+      # link: 'https://github.com/MLH-Fellowship/MLH-A11Y'
+      desc: 'An interactive LMS to teach MLH Fellows about digital accessibility by providing resources and an intro to automated accessibility testing (MLH Fellow, Fall 2021)'
+      icon: 'i-ri-accessibility-line'
+    - name: 'CFTK Canvassing App'
+      link: 'https://github.com/cssgunc/cftk'
+      desc: 'CS+SG: Canvassing app to support fundraising for Carolina for the Kids (Fall 2020 - Spring 2021)'
+      icon: 'i-mage-heart-health'
+    - name: 'Accessibility Axolotl'
+      link: 'https://github.com/accessibility-axolotl/axolotl'
+      # TODO: this is private, consider making public
+      desc: 'Gamifying learning about accessibility in computer science for all (Spring 2021)'
+      icon: 'i-game-icons-axolotl'
+    - name: 'UNC CS Resume Database'
       link: 'https://github.com/nikhil-vytla/unc-cs-resume-db'
-      desc: 'Enabling UNC CS Students to find internship and job opportunities'
+      desc: 'UNC CS Summer of Code: Enabling UNC CS students to find internship and job opportunities (Summer 2020)'
       icon: 'i-fluent-emoji-flat-ram'
     - name: 'Geospatial Store'
-      link: 'https://github.com/akan72/geospatial-store'
-      desc: 'Making Earth observation more accessible for everyone'
-      icon: 'i-mdi-earth-arrow-up'
+      link: 'https://github.com/nikhil-vytla/GeospatialStore'
+      desc: 'Making Earth observation more accessible for everyone (Spring 2020)'
+      icon: 'i-material-icon-theme-folder-global-open'
+    - name: 'HospitalAR'
+      link: 'https://github.com/nikhil-vytla/hospital-ar'
+      desc: "Creating memorable, exploratory AR experiences for immunocompromised children at UNC Children's Hospital (Spring 2020)"
+      icon: 'i-akar-icons-augmented-reality'
+    - name: 'MyHealthEd Admin Portal'
+      link: 'https://github.com/cssgunc/myhealthed-admin'
+      desc: 'CS+SG: Admin portal for MyHealthEd and the Real Talk mobile app to improve teen health (Spring 2020)'
+      icon: 'i-material-symbols-admin-meds-outline'
+    - name: 'COVID-19 Research Viewer'
+      link: 'https://github.com/nikhil-vytla/COVID-19'
+      desc: 'Visualizing cure, treatment, vaccine, and test efforts for COVID-19 (Spring 2020)'
+      icon: 'i-fluent-emoji-bar-chart'
+    - name: 'FloodGate'
+      link: 'https://devpost.com/software/floodgate'
+      # link: 'https://github.com/nikhil-vytla/FloodGate'
+      desc: 'Leveraging crowd-sourced data for early flood warning & detection. (HackDuke: Code for Good, Fall 2019)'
+      icon: 'i-twemoji-water-wave'
+    - name: 'TherapyLink'
+      link: 'https://github.com/cssgunc/TherapyLink'
+      desc: 'CS+SG: Mobile app to make culturally-tailored mental health resources more accessible for AA women (Fall 2019)'
+      icon: 'i-ri-psychotherapy-line'
+    - name: 'OCRCC Mobile App'
+      link: 'https://github.com/cssgunc/ocrcc-app'
+      desc: 'CS+SG: Mobile app pilot for OCRCC to enable safe, secure access to resources for vulnerable populations (Fall 2019)'
+      icon: 'i-tabler-map-pin-heart'
+    - name: 'KenKen'
+      link: 'https://github.com/nikhil-vytla/kenken'
+      desc: 'Solving KenKen using backtracking and constraint checking (Spring 2019)'
+      icon: 'i-lucide-grid-2x2-check'
+    - name: 'NewMoms'
+      link: 'https://github.com/nikhil-vytla/NewMoms'
+      desc: 'Personal pregnancy data analytics app for postpartum depression (Triangle Health Innovation Challenge (THInC), Spring 2019)'
+      icon: 'i-twemoji-woman-cartwheeling'
+    - name: 'Carolina Cupboard Inventory'
+      link: 'https://github.com/cssgunc/carolinacupboard-inventory'
+      desc: 'CS+SG: Inventory management app for UNC community food pantry (Spring 2019)'
+      icon: 'i-noto-v1-pot-of-food'
+  '/High School':
+    - name: 'Neanderthal.io'
+      link: 'https://devpost.com/software/neanderthal-io'
+      # link: 'https://github.com/nikhil-vytla/neanderthal.io'
+      desc: 'Crazy evader game with cannons, lasers, and power-ups (and a cro-magnon dude) (Spring 2017)'
+      icon: 'i-game-icons-cannon-ball'
+    - name: 'Crimson'
+      link: 'https://github.com/nikhil-vytla/Crimson'
+      desc: 'Revolutionizing online reading through audio and voice control (Spring 2016)'
+      icon: 'i-noto-closed-book'
+
 ---
 
 <!-- @layout-full-width -->
