@@ -3,6 +3,12 @@ title: Research - Nikhil Vytla
 display: ''
 art: plum
 items:
+  - title: "What Is Your Agent's GPA? A Framework for Evaluating Agent Goal-Plan-Action Alignment"
+    date: '2025-10-09'
+    path: 'https://arxiv.org/abs/2510.08847'
+    platform: ArXiv
+    lang: 'en'
+    place: Snowflake AI Research
   - title: 'Queer In AI: A Case Study in Community-Led Participatory AI'
     date: '2023-06-12'
     path: 'https://dl.acm.org/doi/10.1145/3593013.3594134'
