@@ -1,6 +1,6 @@
 ---
 title: "Central Limit Theorem: Part 2"
-date: '2025-01-15'
+date: '2024-02-12'
 lang: en
 duration: 10min
 ---

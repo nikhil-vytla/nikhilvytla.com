@@ -29,6 +29,7 @@ declare module 'vue-router/auto-routes' {
     '/notes': RouteRecordInfo<'/notes', '/notes', Record<never, never>, Record<never, never>>,
     '/photos': RouteRecordInfo<'/photos', '/photos', Record<never, never>, Record<never, never>>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
+    '/posts/bayes-theorem': RouteRecordInfo<'/posts/bayes-theorem', '/posts/bayes-theorem', Record<never, never>, Record<never, never>>,
     '/posts/caramel-churro-chex-mix': RouteRecordInfo<'/posts/caramel-churro-chex-mix', '/posts/caramel-churro-chex-mix', Record<never, never>, Record<never, never>>,
     '/posts/causal-representation-learning': RouteRecordInfo<'/posts/causal-representation-learning', '/posts/causal-representation-learning', Record<never, never>, Record<never, never>>,
     '/posts/central-limit-theorem-p1': RouteRecordInfo<'/posts/central-limit-theorem-p1', '/posts/central-limit-theorem-p1', Record<never, never>, Record<never, never>>,
