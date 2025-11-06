@@ -11,22 +11,26 @@ art: dots
 ## Hardware
 
 <!-- - Camera: RICOH GR IIIx / Nikon Z50 + Nikkor 85mm f1.8 / ~~Nikon Z6 II~~ / ~~Nikon D750~~ / ~~Canon 600D~~ -->
-- Laptop: MacBook Pro 14' M2 Pro 16GB 
-<!-- - Mouse: Logitech MX Ergo S -->
-<!-- - Keyboard: HHKB Studio + XPPen Wireless Shortcut Remote -->
-<!-- - Monitor: Studio Display / ~~LG 27UL850-W~~ -->
-<!-- - Chair: Herman Miller Aeron / ~~Herman Miller Sayl~~ -->
-<!-- - Table: FlexiSpot E7H -->
-<!-- - Speakers: Sonos Beam / HomePod Mini x2 / Sonos Roam 2 -->
+
+- Laptop: MacBook Pro 14' M2 Pro 16GB
+  <!-- - Mouse: Logitech MX Ergo S -->
+  <!-- - Keyboard: HHKB Studio + XPPen Wireless Shortcut Remote -->
+  <!-- - Monitor: Studio Display / ~~LG 27UL850-W~~ -->
+  <!-- - Chair: Herman Miller Aeron / ~~Herman Miller Sayl~~ -->
+  <!-- - Table: FlexiSpot E7H -->
+  <!-- - Speakers: Sonos Beam / HomePod Mini x2 / Sonos Roam 2 -->
 
 - Desktop:
   - CPU: Ryzen 5600X
-  - Motherboard: NZXT N7 B550
-  - GPU: RX 6600XT 8GB
+  <!-- - Motherboard: NZXT N7 B550 -->
+  - Motherboard: Asus TUF Gaming B550-Plus
+  <!-- - GPU: RX 6600XT 8GB -->
+  - GPU: RTX 3090 Ti Founders Edition 24GB
   - RAM: Corsair Vengeance 32GB DDR4-3600
   - SSD: Samsung 980 Pro 2TB
   - Case: NZXT H510 Flow
-  - PSU: EVGA SuperNova 650 G6
+  <!-- - PSU: EVGA SuperNova 650 G6 -->
+  - PSU: Corsair RM1200e
 
 <!-- ### Live Streaming
 
@@ -44,7 +48,10 @@ art: dots
 
 ### Editor
 
-- Editor: [VS Code](https://code.visualstudio.com/) (+ trying out [Cursor](https://www.cursor.com/), [Claude Code](https://www.anthropic.com/claude-code), and [Gemini CLI](https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/))
+- Editor: [VS Code](https://code.visualstudio.com/), [Cursor](https://www.cursor.com/), and [Claude Code](https://www.anthropic.com/claude-code)!
+
+<!-- and [Gemini CLI](https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/) -->
+
 <!-- - VS Code Settings & Extensions: [antfu/vscode-settings](https://github.com/antfu/vscode-settings)
 - Fonts: [Input Mono](https://input.djr.com/)
 - Theme: [Vitesse Theme](https://github.com/antfu/vscode-theme-vitesse)
