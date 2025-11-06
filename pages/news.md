@@ -3,6 +3,12 @@ title: News - Nikhil Vytla
 display: ''
 art: plum
 items:
+  - title: "What's Your Agent's GPA? A Framework for Evaluating AI Agent Reliability"
+    date: '2025-11-04'
+    path: 'https://www.snowflake.com/en/engineering-blog/ai-agent-evaluation-gpa-framework/'
+    platform: Snowflake
+    lang: 'en'
+    place: '❄️ Snowflake AI Research'
   - title: 'Using artificial intelligence to improve health'
     date: '2025-06-05'
     path: 'https://hsph.harvard.edu/news/using-artificial-intelligence-to-improve-health/'
