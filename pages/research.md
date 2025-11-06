@@ -8,7 +8,7 @@ items:
     path: 'https://arxiv.org/abs/2510.08847'
     platform: ArXiv
     lang: 'en'
-    place: Snowflake AI Research
+    place: ❄️ Snowflake AI Research
   - title: 'Queer In AI: A Case Study in Community-Led Participatory AI'
     date: '2023-06-12'
     path: 'https://dl.acm.org/doi/10.1145/3593013.3594134'
@@ -20,7 +20,7 @@ items:
     path: 'https://formative.jmir.org/2021/8/e24393'
     platform: JMIR
     lang: 'en'
-    place: 📱 Involved in app development (UNC CS+SG)
+    place: 📱 UNC CS+SG (app development)
 ---
 
 <SubNav />
