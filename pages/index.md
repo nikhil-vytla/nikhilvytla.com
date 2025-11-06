@@ -20,7 +20,7 @@ If you're up for it, take a glance at my [projects](/projects) and [demos](/demo
 
 I also do [research](/research) and write [blog posts](/posts) about open source, coding, reproducible data science, AI/ML, etc.
 
-Occasionally, I build games for my friends and apps for my family. I am also learning a few languages <span op75>(Spanish, Portuguese, Italian, Japanese, Mandarin)</span>, in the hopes that I may be able to learn more about 🌎 cultures, especially via food and artistic expression.
+From time to time, I build games and apps for my friends and family. I'm also meandering through a few languages <span op75>(Spanish, Portuguese, Italian, Japanese, Mandarin)</span>, in the hopes that I may be able to learn more about global cultures 🌎, especially via food 🍲 and artistic expression.
 
 <!-- TODO: this is really cool, I'd love to do something like this as well! -->
 <!-- From time to time, I make some generative-art, interactivity experiments on [100.antfu.me](https://100.antfu.me/). -->
